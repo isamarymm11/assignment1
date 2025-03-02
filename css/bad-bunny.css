@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #384539;
+}
+h1{
+    font-family: "Limelight", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4a3718;
+}
+h2, h3, h4, h5, h6{
+    font-family: "Ribeye", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #4a3718;    
+}
+.wrapper{
+    background: rgb(164,116,53);
+    background: radial-gradient(circle, rgba(164,116,53,0.49310872894333846) 37%, rgba(235,235,152,1) 87%);
+    padding: 2rem;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    text-align: center;
+    display: inline-block;
+    padding: 1rem;
+    width: 150px;
+    font-size: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: #234225;
+}
+a:hover{
+    color: black;
+}
+.center{
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+.hoverScale:hover{
+    transform: scale(1.5);
+}
+.box-lg{
+    width: 250px;
+    height: 350px;
+    border-style: dotted;
+    display: inline-block;
+    vertical-align: top;
+    margin: 5rem;
+}
+.box-sm{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5rem;
+    border: solid 2px #000;
+}
+.img1{
+    background-image: url(../images/Bad\ Bunny\ img1.jpg);
+}
+.img2{
+    background-image: url(../images/Bad\ Bunny\ img2.jpg);
+}
+.img3{
+    background-image: url(../images/Bad\ Bunny\ img3.jpg);
+}
+.cover{
+    background-size: cover;
+}
